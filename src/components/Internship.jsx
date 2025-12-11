@@ -6,22 +6,23 @@ import "../styles/project.css";
 const Internship = () => {
   const internships = [
     {
-      title: "Contriver ",
+      title: "Contriver – Internship (IoT & Embedded Systems)",
       description:
-        "Worked on IoT and embedded system projects with microcontrollers, sensors, and actuators. Designed and tested smart devices, strengthening understanding of IoT applications and embedded programming.",
+        "Completed an internship at Contriver in the Testing & Development department, where I worked on IoT and embedded system projects. Gained hands-on experience with microcontrollers, sensors, and embedded programming while designing, testing, and analyzing smart system solutions.",
       technologies: [
-        { name: "Microcontrollers", icon: SiArduino, color: "#00979D" },
-        { name: "Sensors", icon: FaMicrochip, color: "#4caf50" },
-        { name: "Actuators", icon: GiElectric, color: "#ff9800" },
-        { name: "IoT", icon: SiIot, color: "#0a66c2" },
+       { name: "Embedded Systems", icon: FaMicrochip, color: "#4caf50" },
+       { name: "Microcontrollers", icon: SiArduino, color: "#00979D" },
+       { name: "Sensors & Actuators", icon: GiElectric, color: "#ff9800" },
+       { name: "Internet of Things (IoT)", icon: SiIot, color: "#0a66c2" },
+       { name: "Testing & Development", icon: FaTools, color: "#607d8b" },
 
       ],
       features: [
-        "Real-time tracking of vital health metrics such as BMI, hydration, and physical activity",
-        "Personalized wellness recommendations based on user input and progress patterns",
-        "Detailed user progress analytics with interactive charts and performance indicators",
-        "Intuitive dashboard UI for seamless navigation and user engagement",
-        "Fully responsive design optimized for mobile, tablet, and desktop experiences",
+         "Designed and tested IoT-based embedded projects using microcontrollers and sensors",
+         "Worked with real-time data collected from devices to understand and analyze system behavior",
+         "Implemented basic automation logic using embedded programming concepts",
+         "Collaborated with the testing team to verify hardware reliability and performance",
+         "Gained practical exposure to real-world IoT applications and embedded system workflows",
       ],
       certificate:
         "https://drive.google.com/file/d/15G1su1dcE3r-ElwSFJzUsrhZpwwP199J/view?usp=drive_link",

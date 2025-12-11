@@ -26,36 +26,40 @@ import { VscVscode } from "react-icons/vsc";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages",
+      title: "DevOps Tools & Platforms",
       skills: [
-        { name: "JavaScript", icon: FaJs, color: "#f7df1e" },
-        { name: "Java", icon: FaJava, color: "#007396" },
-        { name: "SQL", icon: SiMysql, color: "#4479a1" },
-        { name: "HTML5", icon: FaHtml5, color: "#e34c26" },
-        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
-      ],
-    },
-    {
-      title: "Frameworks & Libraries",
-      skills: [
-        { name: "ReactJS", icon: FaReact, color: "#61dafb" },
-        { name: "Redux", icon: SiRedux, color: "#764abc" },
-        { name: "ExpressJS", icon: SiExpress, color: "#000000" },
-        { name: "NodeJS", icon: FaNodeJs, color: "#339933" },
-        { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
-        { name: "REST APIs", icon: SiPostman, color: "#ff6c37" },
-        { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06b6d4" },
-      ],
-    },
-    {
-      title: "Tools & Technologies",
-      skills: [
-        { name: "Postman", icon: SiPostman, color: "#ff6c38" },
-        { name: "Git", icon: FaGitAlt, color: "#f05032" },
+        { name: "Docker", icon: FaDocker, color: "#2496ED" },
+        { name: "Kubernetes", icon: SiKubernetes, color: "#326CE5" },
+        { name: "Jenkins", icon: SiJenkins, color: "#D33833" },
+        { name: "Terraform (Learning)", icon: SiTerraform, color: "#844FBA" },
+        { name: "Git", icon: FaGitAlt, color: "#F05032" },
         { name: "GitHub", icon: FaGithub, color: "#181717" },
-        { name: "VS Code", icon: VscVscode, color: "#007acc" },
-        { name: "Figma", icon: FaFigma, color: "#f24e1e" },
-        { name: "Chrome DevTools", icon: SiGooglechrome, color: "#4285f4" },
+        { name: "Prometheus", icon: SiPrometheus, color: "#E6522C" },
+        { name: "Grafana", icon: SiGrafana, color: "#F46800" },
+        { name: "Nginx (Learning)", icon: SiNginx, color: "#009639" },
+      ],
+    },
+    {
+      title: "Cloud & AWS Services",
+      skills: [
+       { name: "AWS", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "EC2", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "S3", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "VPC", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "IAM", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "API Gateway", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "Lambda", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "DynamoDB", icon: SiAmazonaws, color: "#FF9900" },
+       { name: "CloudWatch", icon: SiAmazonaws, color: "#FF9900" },
+      ],
+    },
+    {
+      title: "Operating Systems & Scripting",
+      skills: [
+        { name: "Linux", icon: FaLinux, color: "#FCC624" },
+        { name: "RedHat", icon: FaRedhat, color: "#EE0000" },
+        { name: "Shell Scripting", icon: FaTerminal, color: "#4EAA25" },
+        { name: "Python Scripting", icon: FaPython, color: "#3776AB" },
       ],
     },
   ];
@@ -86,7 +90,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="leetcode-stats">
+       {/* <div className="leetcode-stats">
           <div className="stats-card">
             <h3>🏆 LeetCode Achievement</h3>
             <div className="stats-content">
@@ -105,7 +109,7 @@ const Skills = () => {
               algorithms.
             </p>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
